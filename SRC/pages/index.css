@@ -1,0 +1,508 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.apps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    
+}
+
+.apps svg{
+    width: 10px;
+    margin-left: 20px;
+
+   
+}
+
+.cabecalho{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+ 
+}
+.cabecalho img{
+    width: 200px;
+    height: 80px;
+    margin-left: 12px;
+    
+}
+.cabecalho input{
+    text-align: left;
+    width: 440px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 1px;
+    padding: 10px;
+    margin-left: 200px;
+    border-width:1px;
+    font-family: 'fonte';
+}
+.cabecalho svg{
+    width: 20px;
+}
+.minhaconta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    width: 450px;
+    justify-content: space-around;
+    
+}
+#icon{
+    display: flex;
+    flex-direction: row;
+}
+#icon p{
+margin-top: 5px;
+}
+.minhaconta p{
+    font-size: 12px;
+    font-family: 'fonte';
+}
+.minhaconta svg{
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+
+.promocoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid rgba(0,0,0,0.1);
+ 
+   
+}
+#opcoes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-family: 'fonte';
+
+}
+#opcoes svg{
+    width: 12px;
+    margin-left: 5px;
+}
+
+
+
+.imgdesc img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.seguranca{
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.1);
+    font-family: 'fonte';
+}
+
+.seguranca svg{
+    width: 70px;
+}
+#bloco1{
+    display: flex;
+    flex-direction: row;
+}
+#bloco1 h1{
+    font-size: 18px;
+    margin-top: 30px;
+    color: #000000d1;
+    font-family: 'fonte';
+}
+#bloco1 p{
+    width: 178px;
+    font-size: 14px;
+    font-family: 'fonte';
+}
+#colunatexto{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+}
+.destaques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+   
+}
+#titulo2{
+    font-family: 'fonte';
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.produtos img{
+    width: 200px;
+    margin: 5px;
+}
+
+.prod1{
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid rgba(146, 146, 146, 0.254);
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+.prod1 p{
+    font-family: 'fonte';
+    margin: 5px;
+}
+.prod1 h1{
+    font-family: 'fonte ';
+}
+.prod1:hover{
+    box-shadow: 0px 6px 2px 1px  rgba(146, 146, 146, 0.254);
+    transition: 0.3s;
+}
+
+#estrela{
+    border-top: 2px solid black ;
+    display: flex;
+    flex-direction: row;
+    color: yellow;
+    padding-left: 40px;
+    
+}
+#preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+
+}
+#preco p{
+ text-decoration: line-through;   
+}
+#preco h1{
+    margin-left: 10px;
+    font-size: 22px;
+}
+#textos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#botao1{
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'fonte1'
+}
+#botao2{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+#titulo h1{
+    font-family: 'fonte';
+    font-size: 21px;
+    margin-left: 90px;
+    margin-bottom: 60px
+}
+
+#imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#imagens img{
+    width: 360px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#titulo2{
+    
+}
+
+.titulo{
+    font-size: 19px;
+    margin: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'fonte';
+}
+#lancamento{
+    font-family: 'fonte';
+}
+.lancamentos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lancamentoimg{
+    width: 200px;
+}
+.promocoes1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.promocoes1 img{
+    width: 200px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    height: 340px;
+    font-family: 'fonte';
+}
+.email p{
+        margin: 20px;
+        font-size: 15px;
+}
+.email h1{
+    font-size: 39px;
+    margin: 10px;
+ 
+}
+#receba{
+    font-family: 'fonte';
+}
+.email input{
+    margin-top: 13px;
+    padding-left: 10px;
+    height: 50px;
+    width: 600px;
+    border-radius: 15px;
+    border: none;
+}
+.insta{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#instadohomi{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#wood{
+    font-family: 'fonte';
+}
+#instadohomi svg{
+    width: 40px;
+    margin: 8px;
+
+}
+.sequenciaimg{
+    display: flex;
+    flex-direction: row; 
+}
+.sequenciaimg img{
+    width: 226px;
+    height: 250px;
+    
+}
+#logo1{
+    height: 290px;
+    width: 200px;
+    margin: 10px;
+}
+.rodape{
+    font-family: 'fonte';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+    height: 400px;
+    padding: 30px;
+}
+.blocos{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+.blocos h1{
+margin-bottom: 12px;
+}
+.blocos a{
+    font-size: 15px;
+    cursor: pointer;
+}
+.blocos1 div{
+    margin: 10px;
+}
+.blocos1 p{
+    margin-left: 8px;
+}
+#whats{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#face{
+    display: flex;
+    flex-direction: row;
+}
+#carta{
+    display: flex;
+    flex-direction: row;
+}
+#local{
+    display: flex;
+    flex-direction: row;
+}
+.rodape svg{
+    width: 15px;
+}
+
+.cor{
+    height: 1px;
+    width: 1280px;
+    background-color: rgba(0, 0, 0, 0.2) ;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.ultimobloco{
+    background-color: rgba(0,0,0,0.1);
+}
+.avaliacao img{
+    width: 60px;
+    margin-left: 30px;
+}
+.rodapepreto{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #fff;
+    height: 80px;
+}
+.rodapepreto p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.rodape h1{
+    margin-top: 20px;
+    font-size: 18px;
+}
+a{
+    cursor: pointer;
+}
+#facebook{
+    background-color: #000000;;
+    width: 40px;
+}
+
+#faceinsta {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.redessocias{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+#apps{
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+}
+#apps a{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    margin-right: 14px;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#svgface{
+    
+    fill: #fff;
+}
+
+#frete{
+    margin-bottom: 110px;
+    margin-right: 5px;
+}
+#desconto{
+    margin-bottom: 20px;
+}
+#seguranca{
+    margin-bottom: 90px;
+}
+.container h1{
+    font-family: 'fonte ';
+}
+#botao1:hover{
+    background-color: #2b2626;
+    transition: 0.7s;
+}
+#preco h1{
+    font-family: 'fonte';
+    font-size: 21px;
+}
+@media (max-width:700px){
+
+
+}
